@@ -1,0 +1,27 @@
+# Bitrix common
+/bitrix/backup/
+/bitrix/managed_cache/
+/bitrix/cache/
+/bitrix/stack_cache/
+/bitrix/html_pages/
+/bitrix/tmp/
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/after_connect_d7.php
+
+# Uploads (usually generated content)
+#/upload/
+/upload/tmp/
+/upload/resize_cache/
+/upload/iblock/
+/upload/medialibrary/
+/upload/uf/
+
+# Logs / temp
+*.log
+*.tmp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
